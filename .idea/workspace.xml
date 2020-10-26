@@ -11,15 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da91851-0d6f-4026-9213-105a5e455aeb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/home.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/mail.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routers/routers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routers/templates/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603703904214</updated>
       <workItem from="1603703907784" duration="7004000" />
+      <workItem from="1603721036859" duration="121000" />
     </task>
     <servers />
   </component>
@@ -115,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
