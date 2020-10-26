@@ -40,17 +40,24 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var env_1 = __importDefault(require("./env/env"));
+var routers_1 = __importDefault(require("./routers/routers"));
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var env, _a, _b;
-        return __generator(this, function (_c) {
-            switch (_c.label) {
+        var env, routers, _a, _b, _c, _d, _e;
+        return __generator(this, function (_f) {
+            switch (_f.label) {
                 case 0:
                     env = new env_1.default();
-                    _b = (_a = console).log;
+                    routers = new routers_1.default();
+                    _b = (_a = Promise).all;
+                    _c = [routers.handle()];
+                    _e = (_d = routers).listen;
                     return [4 /*yield*/, env.get("PORT")];
-                case 1:
-                    _b.apply(_a, [_c.sent()]);
+                case 1: return [4 /*yield*/, _b.apply(_a, [_c.concat([
+                            _e.apply(_d, [_f.sent()])
+                        ])])];
+                case 2:
+                    _f.sent();
                     return [2 /*return*/];
             }
         });
