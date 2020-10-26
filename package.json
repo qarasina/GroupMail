@@ -1,0 +1,29 @@
+{
+  "name": "GroupMail",
+  "version": "1.0.0",
+  "description": "GroupMail est une solution qui permet l'envoi de mail de manière groupée",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "build": "tsc",
+    "pkg": "pkg build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayandfz/GroupMail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rayandfz/GroupMail/issues"
+  },
+  "homepage": "https://github.com/rayandfz/GroupMail#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.7.0"
+  }
+}
